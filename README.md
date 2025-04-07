@@ -1,43 +1,46 @@
- estructuras_repetitivas_3147252
-=
-Proyecto para aprender los ciclos for y while en python
+# estructuras_repetitivas_3147353
+Proyecto para aprender los ciclos en python
 
-Conceptos Cláves:
--
+##Conceptos claves
 
-**Breakpoint (punto de interrupción):** 
-Herramienta para ejecutar (depurar) un programa
-instrucción por instrucción, de tal
-manera que se púede apreciar el 
-comportamiento del programa bajo 
-todas las condiciones posibles.
+**BreacPoint (punto de interrupcion)** :Es una herramienta
+para ejecutar  (depurar) un programa
+instruccion por intruccion, de tal manera
+que se pueda apreciar el comportamiento del programa 
+bajo todas las condiciones posibles.
 
-**Variable Contadora(contadores):**
-Una variable utilizada en ciclos
+**Variable contadora (contador):**
+Una variable utilizada en ciclo.
 
-* Debe inicializarse en 0 antes del ciclo.
-* Por lo general se utilizan las letras i, j para nomvrarlas 
-* Debe tener una **instrucción de incremento**.
-* La variable condicional debe participar en la condicional
+*Debe inicializarse em 0 anstes del ciclo.
+*Por lo general se utiliza i y j para nombrarlas
+*Debe tener una **instruccion de incremento**
+*La variable contadora debe participar en la condicional 
 
 
+#Ciclo while :
+Es una estrucutura que permite repetir
+SU BLOQUE DE CODIGO **MIENTRAS QUE**
+su condicional sea verdadera
+-> si la condicional tiene calor deverdad FALSE, ya dean de repetirse
+las instrucciones de bloque
 
-Ciclo While:
--
+### Sintáixis
 
-Es una estructura que permite repetir
-SU BLOQUE DE CÓDIGO, **mientras que**
-Su condicional sea verdadera
+`While Condicional`
+    Instrucción 1
+    Instrucción 2 ....
 
--> Si la condicional tiene valor de verdad FALSE, ya dejan de repetirse las instrucciones del bloque
+## CIclo for(Python):
+Ciclo utilizado para iterar colecciones 
+de datos.
 
-
- Sintáxis:
-- 
+### SINTAXIS:   
 
 ```
-while **condicional**: 
-    Instrucción 1...
-    Instrucción 2...
-
+for <variable_almacenamiento> in <colección_de_datos>:
+    instrucción 1 
+    instrucción 2 
+    ...
+    instrucción 3
 ```
